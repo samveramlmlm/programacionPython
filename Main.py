@@ -4,8 +4,10 @@
 #En esta clase es en donde se ejecuta el codigo, para que asi nos de los datos que nosostros requerimos.
 
 from Cuenta import *
-class Pruebas:
+class Main:
   pass
   print("imprimir atributos")
-  Cuenta 1= Cuenta(saldo, "tipo", "nombre")
-  Cuenta 1. imprimirDetalles()
+  cuenta 1= Cuenta(saldo, "tipo", "nombre")
+  cuenta 1 retirar (500)
+  print(cuenta 1.saldo)
+  cuenta 1. imprimirDetalles()
