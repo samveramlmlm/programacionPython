@@ -1,1 +1,3 @@
-# samvera-spec-programacionPython-teoria-clasesYMetodos
+# Samuel Alejandro Vera Placido
+
+hshshshshshshs
