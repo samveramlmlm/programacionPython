@@ -6,6 +6,8 @@
 from Menu import Menu 
 from Cliente import Cliente
 from Cuenta import Cuenta
+class Main:
+    pass
 menu = Menu()
 menu.imprimirDetalles() 
 cliente1 = Cliente("nombre", "direccion", "edad")
