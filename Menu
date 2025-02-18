@@ -3,9 +3,10 @@
 #@author: Samuel Vera
 #En esta clase es en donde se da el mensaje de bienvendida, al propietario de una cuenta bancaria, es lo primero que ve el usuario.
 
-class MenuBanco:
-    def __init__(self, banco_1):
-        self.banco_1 = MenuBanco
+class Menu:
+    def __init__(self):
+        pass
 
-    def bienvenida(self):
-        print(f"Bienvenido a {self.banco_1}")
+    def imprimirDetalles(self):
+        print("Bienvenido a Santander")
+  
