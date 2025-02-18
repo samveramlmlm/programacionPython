@@ -3,11 +3,12 @@
 #@author: Samuel Vera
 #En esta clase es en donde se ejecuta el codigo, para que asi nos de los datos que nosostros requerimos.
 
-from Cuenta import *
-class Main:
-  pass
-  print("imprimir atributos")
-  cuenta 1= Cuenta(saldo, "tipo", "nombre")
-  cuenta 1 retirar (500)
-  print(cuenta 1.saldo)
-  cuenta 1. imprimirDetalles()
+from Menu import Menu 
+from Cliente import Cliente
+from Cuenta import Cuenta
+menu = Menu()
+menu.imprimirDetalles() 
+cliente1 = Cliente("nombre", "direccion", "edad")
+cliente1.imprimirDetalles() 
+cuenta1 = Cuenta("saldo", "tipo", "nombre")
+cuenta1.imprimirDetalles()
