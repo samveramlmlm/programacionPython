@@ -13,3 +13,8 @@ class Cuenta:
         print("saldo:", self.saldo)
         print("tipo:", self.tipo)
         print("nombre:", self.nombre)
+    def retirar(self, cantidad):
+        self.saldo = self.saldo-cantidad
+    def depositar(self, cantidad):
+        self.saldo = self.saldo+cantidad
+         
