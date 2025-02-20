@@ -4,13 +4,16 @@
 #En esta clase es en donde se ejecuta el codigo, para que asi nos de los datos que nosostros requerimos.
 
 
+from Menu import Menu 
+from Cliente import Cliente
 from Cuenta import Cuenta
 
 class Main:
     pass
 
-menu = Menu()
-menu.imprimirDetalles() 
+mensajeBienvenida = "Bienvenid@" 
+menu = Menu(mensajeBienvenida)
+menu.darBienvenida()
 
 cliente1 = Cliente("nombre", "direccion", "edad")
 cliente1.imprimirDetalles() 
