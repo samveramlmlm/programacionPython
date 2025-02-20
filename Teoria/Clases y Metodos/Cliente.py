@@ -3,10 +3,12 @@
 #@author: Samuel Vera
 #En esta clase se almacenan algunas propiedades de los cliente (atributos) y tambien algunos procesos que los mismo llevan a cabo, como lo serian el retiro o el deposito.
 class Cliente:
+    
     def __init__(self, nombre, direccion, edad):
         self.nombre=nombre
         self.direccion=direccion
-        self.edad=edad
+        self.edad=edad 
+        
     def imprimirDetalles(self):
         print("Desde el metodo")
         print("nombre:", self.nombre)
