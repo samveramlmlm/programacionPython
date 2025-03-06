@@ -3,6 +3,7 @@
 #@author: Samuel Vera
 #En esta clase es en donde se da el mensaje de bienvendida, al propietario de una cuenta bancaria, es lo primero que ve el usuario.
 
+
 class Menubanco:
     
     def __init__(self, mensajeBienvenida):
@@ -11,7 +12,7 @@ class Menubanco:
     def darBienvenida(self):
         print("mensajeBienvenida:", self.mensajeBienvenida)
 
-    def desplegaropciones(self):
+    def desplegarOpciones(self):  # Corregido aquí
         print("Elije la opción:")
         print("1. Depositar")
         print("2. Retirar")  
