@@ -1,11 +1,10 @@
-from Menu import Menu 
+from Menubanco import Menubanco  
 from Cliente import Cliente
 from Cuenta import Cuenta
 
 class Main:
     pass
 
-from Menubanco import Menubanco  
 
 class Main:
     def ejecutar(self):  # Definir el método dentro de la clase Main
