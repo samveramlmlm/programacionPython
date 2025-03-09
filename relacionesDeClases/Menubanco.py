@@ -3,27 +3,26 @@
 #@author: Samuel Vera
 #En esta clase es en donde se da el mensaje de bienvendida, al propietario de una cuenta bancaria, es lo primero que ve el usuario.
 
-
 class Menubanco:
     
     def __init__(self, mensajeBienvenida):
-        self.mensajeBienvenida = mensajeBienvenida
+        self.mensajeBienvenida = mensajeBienvenida  
 
     def darBienvenida(self):
-        print("mensajeBienvenida:", self.mensajeBienvenida)
-
-    def desplegarOpciones(self):  # Corregido aquí
-        print("Elije la opción:")
+        print(self.mensajeBienvenida) 
+        
+    def desplegarOpciones(self):
+        # Muestra las opciones para elegir
+        print("Elige la opción:")
         print("1. Depositar")
         print("2. Retirar")  
 
-        opcion = input("Selecciona 1 o 2: ")  
+        opcion = '2' 
+        print(f"Opción seleccionada: {opcion}")
         
         if opcion == '1':
             print("Has elegido Depositar")
-
         elif opcion == '2':
             print("Has elegido Retirar")
-           
         else:
             print("Opción no válida. Por favor, selecciona 1 o 2.")
