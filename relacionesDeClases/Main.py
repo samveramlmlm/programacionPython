@@ -2,12 +2,11 @@ from Menubanco import Menubanco
 from Cliente import Cliente
 from Cuenta import Cuenta
 
-class Main:
+class Main: 
     
         menu = Menubanco("Bienvenid@ a Menú Bancario")
         menu.darBienvenida()
         menu.desplegarOpciones()
-
 
         cliente1 = Cliente("nombre", "direccion", "edad", "cuenta")
         cliente1.imprimirDetalles()
