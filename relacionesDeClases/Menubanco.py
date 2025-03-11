@@ -15,14 +15,18 @@ class Menubanco:
         # Muestra las opciones para elegir
         print("Elige la opción:")
         print("1. Depositar")
-        print("2. Retirar")  
+        print("2. Retirar")
+        print("3. Salir")  # Se corrigió la comilla faltante
 
-        opcion = '2' 
+        opcion = input("Ingresa tu opción: ")  # Ahora el usuario ingresa la opción
         print(f"Opción seleccionada: {opcion}")
         
         if opcion == '1':
             print("Has elegido Depositar")
         elif opcion == '2':
             print("Has elegido Retirar")
+        elif opcion == '3':
+            print("Saliendo del sistema. ¡Gracias por usar nuestros servicios!")
         else:
-            print("Opción no válida. Por favor, selecciona 1 o 2.")
+            print("Opción no válida. Por favor, selecciona 1, 2 o 3.")
+
