@@ -31,6 +31,7 @@ class Menu:
             else:
                 print("Opción no válida. Por favor, selecciona 1, 2 o 3.")
 
+    
     def depositar(self):
         try:
             cantidad = float(input("Ingresa la cantidad a depositar: "))
@@ -42,6 +43,7 @@ class Menu:
         except ValueError:
             print("Error: Ingresa un número válido.")
 
+   
     def retirar(self):
         try:
             cantidad = float(input("Ingresa la cantidad a retirar: "))
