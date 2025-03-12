@@ -1,7 +1,7 @@
-#Fecha: 3 de Marzo de 2025
-#@version: 1.3
+#Fecha: 10 de Marzo de 2025
+#@version: 1.2
 #@author: Samuel Vera
-#En esta clase es en donde se da el mensaje de bienvendida, al propietario de una cuenta bancaria, es lo primero que ve el usuario.
+#En esta clase es en donde se da el mensaje de bienvendida, al propietario de una cuenta bancaria, es lo primero que ve el usuario. Al igual que se le da las opciones de depositar, retirar y salir.
 
 class Menu:
     
