@@ -3,7 +3,7 @@
 #@author: Samuel Vera
 #En esta clase es en donde se da el mensaje de bienvendida, al propietario de una cuenta bancaria, es lo primero que ve el usuario.
 
-class Menubanco:
+class Menu:
     
     def __init__(self, mensajeBienvenida, saldo_inicial=0):
         self.mensajeBienvenida = mensajeBienvenida  
