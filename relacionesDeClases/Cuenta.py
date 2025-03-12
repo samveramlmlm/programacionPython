@@ -1,3 +1,7 @@
+#Fecha: 10 de Marzo de 2025
+#@version: 1.2
+#@author: Samuel Vera
+#En esta clase se almacenan los atributos y los procesos de la cuenta.
 class Cuenta:
     
     def __init__(self, saldo, tipo, nombre):
