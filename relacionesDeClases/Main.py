@@ -1,4 +1,4 @@
-from Menubanco import Menubanco
+from Menu import Menu
 from Cliente import Cliente
 from Cuenta import Cuenta
 
