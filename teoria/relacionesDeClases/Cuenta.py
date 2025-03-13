@@ -12,7 +12,6 @@ class Cuenta:
     def imprimirDetalles(self):
         print("Saldo:", self.saldo)
         print("Tipo de cuenta:", self.tipo)
-        print("Nombre del titular:", self.nombre)
     
     def retirar(self, cantidad):
         if cantidad > self.saldo:
