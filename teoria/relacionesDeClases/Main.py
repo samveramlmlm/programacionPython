@@ -17,7 +17,7 @@ class Main:
         cliente1 = Cliente("nombre", "direccion", "edad", "cuenta")
         cliente1.imprimirDetalles()
 
-        cuenta1 = Cuenta(7000, "tipo", "nombre")
+        cuenta1 = Cuenta(7000, "tipo")
         cuenta1.imprimirDetalles()
 
     
