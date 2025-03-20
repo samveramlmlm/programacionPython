@@ -1,4 +1,4 @@
-#Fecha: 10 de Marzo de 2025
+#Fecha: 19 de Marzo de 2025
 #@version: 1.2
 #@author: Samuel Vera
 #En esta clase se almacenan algunas propiedades de los cliente (atributos) y tambien algunos procesos que los mismo llevan a cabo, como lo serian el retiro o el deposito.
