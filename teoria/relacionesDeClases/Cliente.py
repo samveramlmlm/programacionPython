@@ -7,14 +7,9 @@ from Cuenta import Cuenta
 class Cliente:
     
     def __init__(self, nombre, direccion, edad, cuenta):
-        self.nombre = nombre
-        self.direccion = direccion
-        self.edad = edad
+        self.__nombre = nombre
+        self.__direccion = direccion
+        self.__edad = edad
         self.cuenta = cuenta  
-        
-    def imprimirDetalles(self):
-        print("Nombre:", self.nombre)
-        print("Dirección:", self.direccion)
-        print("Edad:", self.edad)
-        print("Detalles de la cuenta:")
+
      
