@@ -12,7 +12,6 @@ if __name__ == "__main__":
     menu.darBienvenida()
     menu.desplegarOpciones()
 
-    # Crear cuenta y cliente
     cuenta1 = Cuenta(1000, "Ahorros")
     cliente1 = Cliente("Sam Vera", "Calle 160", 18, cuenta1)
 
