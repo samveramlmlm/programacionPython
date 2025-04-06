@@ -1,8 +1,7 @@
-#Fecha: 19 de Marzo de 2025
-#@version: 1.2
-#@author: Samuel Vera
-#En esta clase es en donde se ejecuta el codigo, para que asi nos de los datos que nosostros requerimos.
-
+# Fecha: 19 de Marzo de 2025
+# @version: 1.2
+# @autor: Samuel Vera
+# En esta clase es en donde se ejecuta el código, para que así nos dé los datos que nosotros requerimos.
 
 from Menu import Menu
 from Cliente import Cliente
@@ -24,9 +23,5 @@ if __name__ == "__main__":
 
     cuenta1.depositar(1000)
     print("Depósito exitoso de: 1000")
-
-        
-        cuenta1.depositar(1000)
-        print("Depósito exitoso de: 1000")
-        print(cuenta1.saldo)
-        cuenta1.imprimirDetalles()
+    cuenta1.mostrarSaldo()
+    cuenta1.imprimirDetalles()
