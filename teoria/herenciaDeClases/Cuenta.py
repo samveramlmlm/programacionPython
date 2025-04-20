@@ -1,12 +1,14 @@
-#Fecha: 2 de Abril de 2025
-#@version: 1.3
+#Fecha: 9 de Abril de 2025
+#@version: 1.4
 #@author: Samuel Vera
 #En esta clase se almacenan los atributos y los procesos de la cuenta.
-class Cuenta:
-    
-    def __init__(self, saldo, tipo):
-        self.__saldo = saldo
-        self.__tipo = tipo
+from Cliente import Cliente
+
+class Cuenta(Cliente):
+    def __init__(self, nombre, apellido, dni, numeroCuenta, saldo):
+        super().__init__(nombre, apellido, dni) 
+        self.numeroCuenta = numeroCuenta
+        self.saldo = saldo
 
     def getSaldo(self):
         return self.__saldo
