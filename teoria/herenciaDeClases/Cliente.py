@@ -1,14 +1,18 @@
-#Fecha: 2 de Abril de 2025
-#@version: 1.3
+#Fecha: 9 de Abril de 2025
+#@version: 1.4
 #@author: Samuel Vera
 #En esta clase se almacenan algunas propiedades de los cliente (atributos) y tambien algunos procesos que los mismo llevan a cabo, como lo serian el retiro o el deposito.
 
 class Cliente:
-    def __init__(self, nombre, direccion, edad):
-        self.__nombre = nombre
-        self.__direccion = direccion
-        self.__edad = edad
-        self.__cuentas = []  
+    def __init__(self, nombre, apellido, dni):
+        self.nombre = nombre
+        self.apellido = apellido
+        self.dni = dni
+
+    def mostrarDatos(self):
+        print(f"Nombre: {self.nombre}")
+        print(f"Apellido: {self.apellido}")
+        print(f"DNI: {self.dni}")
         
     def agregarCuenta(self, cuenta):
         self.__cuentas.append(cuenta)
