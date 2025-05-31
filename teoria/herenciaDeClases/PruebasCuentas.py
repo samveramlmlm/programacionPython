@@ -1,3 +1,7 @@
+#Fecha: 29 de Abril de 2025
+#@version: 1.4
+#@authr: Samuel Vera
+#Aqui se prueban cada uno de los atributos de cada cuenta, en forma de lista, primero va la clase cuenta y despues van las clases hijas. Yo los puse asi para que se vea bien la herencia de las clases.
 from Cuenta import Cuenta
 from CuentaCredito import CuentaCredito
 from CuentaAhorro import CuentaAhorro
