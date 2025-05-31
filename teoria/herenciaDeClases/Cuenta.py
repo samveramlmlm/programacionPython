@@ -1,7 +1,7 @@
-#Fecha: 23 de Abril de 2025
+#Fecha: 29 de Abril de 2025
 #@version: 1.4
 #@author: Samuel Vera
-#En esta cuenta se tiene los atributos de la CuentaMadre y tambien tiene los propios
+#Esta cuenta es la principal de donde se toman los 3 atributos para las cuentas hijas, esta es la cuenta madre
 class Cuenta:
     def __init__(self, numero, titular, saldo=0):
         self.numero = numero
