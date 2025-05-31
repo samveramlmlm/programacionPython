@@ -1,7 +1,7 @@
-#Fecha: 23 de Abril de 2025
+#Fecha: 29 de Abril de 2025
 #@version: 1.4
 #@author: Samuel Vera
-#En esta cuenta se deja en claro ewl valor de la cuenta, atributo que se dejara a la cuenta hija
+#Esta es la cuenta de credito, en donde se toman los atributos anteriores de la Cuenta, para asi agragarle un atributo mas propio. Esta es la otra cuenta hija.
 from Cuenta import Cuenta
 
 class CuentaCredito(Cuenta):
