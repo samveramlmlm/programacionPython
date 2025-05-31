@@ -1,7 +1,7 @@
 #Fecha: 23 de Abril de 2025
 #@version: 1.4
-#@author: Samuel Vera
-#Aqui se jecutan las 2 clases anteriores
+#@authr: Samuel Vera
+#Esta es la cuenta de Ahorro donde se toamn los 3 atributos anteriores de la Cuenta, para asi agregarle uno propio. Esta es la cuenta hija
 from Cuenta import Cuenta
 
 class CuentaAhorro(Cuenta):
