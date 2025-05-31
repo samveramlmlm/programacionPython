@@ -1,4 +1,4 @@
-#Fecha: 23 de Abril de 2025
+#Fecha: 29 de Abril de 2025
 #@version: 1.4
 #@authr: Samuel Vera
 #Esta es la cuenta de Ahorro donde se toamn los 3 atributos anteriores de la Cuenta, para asi agregarle uno propio. Esta es la cuenta hija
